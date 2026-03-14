@@ -7,7 +7,6 @@ public class ProbablyFineDataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
-
-        
+        pack.addProvider(ModModelProvider::new);
     }
 }
