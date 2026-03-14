@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ItsSteven225/probably-fine-template-1.21.11"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/probably-fine/icon.png",
@@ -22,7 +22,7 @@
 			"net.itssteven.probablyfine.ProbablyFineClient"
 		],
 		"fabric-datagen": [
-			"net.itssteven.probablyfine.ProbablyFineDataGenerator"
+			"net.itssteven.probablyfine.datagen.ProbablyFineDataGenerator"
 		]
 	},
 	"mixins": [
